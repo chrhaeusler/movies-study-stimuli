@@ -29,7 +29,10 @@ das_leben_ist_schoen_4006680060446.mkv force_fps=25.000 in=164253 out=175400 \
 \
 -audio-track \
 das_leben_ist_schoen_4006680060446.mkv in=164253 out=175400 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.75 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/das_leben_ist_schoen.avi \
@@ -54,7 +57,10 @@ dead_man_walking_4045167012851.mkv force_fps=25.000 in=147966 out=160795 \
 \
 -audio-track \
 dead_man_walking_4045167012851.mkv in=147966 out=160795 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=5.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/dead_man_walking.avi \
@@ -79,7 +85,10 @@ der_club_der_toten_dichter_4011846004516.mkv force_fps=25.000 in=168728 out=1804
 \
 -audio-track \
 der_club_der_toten_dichter_4011846004516.mkv in=168728 out=180484 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=5.5 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/der_club_der_toten_dichter.avi \
@@ -104,7 +113,10 @@ dirty_dancing_4010324202987.mkv force_fps=25.000 in=128862 out=140236 \
 \
 -audio-track \
 dirty_dancing_4010324202987.mkv in=128862 out=140236 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/dirty_dancing.avi \
@@ -130,7 +142,10 @@ scream_4006680054308.mkv force_fps=25.000 in=420 out=11351 \
 \
 -audio-track \
 scream_4006680054308.mkv in=420 out=11351 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.75 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/scream.avi \
@@ -154,7 +169,10 @@ short_term_12_4029759096474.mkv force_fps=25.000 in=36097 out=39394 \
 \
 -audio-track \
 short_term_12_4029759096474.mkv in=36097 out=39394 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/short_term_12.avi \
@@ -180,7 +198,10 @@ zwei_glohrreiche_halunken_4045167013506.mkv force_fps=25.000 in=229445 out=24201
 \
 -audio-track \
 zwei_glohrreiche_halunken_4045167013506.mkv in=229445 out=242011 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.75 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/zwei_glohrreiche_halunken.avi \
@@ -206,7 +227,10 @@ gone_girl_4010232066077.mkv force_fps=25.000 in=180668 out=182016 \
 \
 -audio-track \
 gone_girl_4010232066077.mkv in=180668 out=182016 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=1.5 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/01_gone_girl.avi \
@@ -231,7 +255,10 @@ sieben_7321925000542.mkv force_fps=25.000 in=170176 out=171506 \
 \
 -audio-track \
 sieben_7321925000542.mkv in=170176 out=171506 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.5 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/02_seven.avi \
@@ -255,7 +282,10 @@ the_sex_of_angels_4031846010829.mkv force_fps=25.000 in=53989 out=54860 \
 \
 -audio-track \
 the_sex_of_angels_4031846010829.mkv in=53989 out=54860 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=6.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/03_the_sex_of_angels.avi \
@@ -280,7 +310,10 @@ der_hobbit_3_part1_505189030034.mkv force_fps=25.000 in=4174 out=5650 \
 \
 -audio-track \
 der_hobbit_3_part1_505189030034.mkv in=4174 out=5650 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/04_der_hobbit.avi \
@@ -305,7 +338,10 @@ lost_in_translation_4011976821885.mkv force_fps=25.000 in=133282 out=134808 \
 \
 -audio-track \
 lost_in_translation_4011976821885.mkv in=133282 out=134808 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=1.8 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/05_lost_in_translation.avi \
@@ -330,7 +366,10 @@ blau_ist_eine_warme_farbe_4042564167412.mkv force_fps=25.000 in=117999 out=11946
 \
 -audio-track \
 blau_ist_eine_warme_farbe_4042564167412.mkv in=117999 out=119463 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=0.9 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/06_blau_ist_eine_warme_farbe1.avi \
@@ -355,7 +394,10 @@ blau_ist_eine_warme_farbe_4042564167412.mkv force_fps=25.000 in=200347 out=20196
 \
 -audio-track \
 blau_ist_eine_warme_farbe_4042564167412.mkv in=200347 out=201969 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=1.25 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/11_blau_ist_eine_warme_farbe2.avi \
@@ -380,7 +422,10 @@ star_wars_3_die_rache_der_sith_4010232061898.mkv force_fps=25.000 in=169925 out=
 \
 -audio-track \
 star_wars_3_die_rache_der_sith_4010232061898.mkv in=169925 out=171474 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=1.75 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/07_star_wars_3_die_rache_der_sith.avi \
@@ -405,7 +450,10 @@ short_term_12_4029759096474.mkv force_fps=25.000 in=126686 out=127793 \
 \
 -audio-track \
 short_term_12_4029759096474.mkv in=126686 out=127793 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/08_short_term_12a.avi \
@@ -430,7 +478,10 @@ short_term_12_4029759096474.mkv force_fps=25.000 in=132830 out=133999 \
 \
 -audio-track \
 short_term_12_4029759096474.mkv in=132830 out=133999 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.0 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/12_short_term_12b.avi \
@@ -454,7 +505,10 @@ shining_7321925011531.mkv force_fps=25.000 in=143875 out=145220 \
 \
 -audio-track \
 shining_7321925011531.mkv in=143875 out=145220 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=2.5 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/09_shining.avi \
@@ -480,7 +534,10 @@ harry_und_sally_4045167012813.mkv force_fps=25.000 in=67150 out=68313 \
 \
 -audio-track \
 harry_und_sally_4045167012813.mkv in=67150 out=68313 \
+-attach-track ladspa.1197 0=-70 1=-10 \
 -attach-track volume gain=3.5 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=20 6=3 \
+-attach-track ladspa.2152 0=128 1=502 2=0 3=-20 6=10 \
 \
 -consumer \
 avformat:../stimuli/10_harry_und_sally.avi \
